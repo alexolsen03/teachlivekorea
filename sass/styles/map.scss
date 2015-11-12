@@ -1,0 +1,78 @@
+.korea-map{
+	height: 600px;
+	width: 500px;
+}
+
+.map-area{
+
+	.map-info{
+		display: table-cell;
+		vertical-align: top;
+
+		&.map-area-distance-info{
+			padding-left: 100px;
+		}
+	}
+
+	.map-area-known-for-title,.map-area-cities-title{
+		margin-top: 20px;
+	}
+
+	.map-area-distance-title{
+		margin-top: 20px;
+
+		.extra-info{
+			display: inline-block;
+			margin-left: 10px;
+			font-size: 10pt;
+		}
+	}
+
+	.map-area-known-for-title, .map-area-cities-title,.map-area-distance-title{
+		font-family: $font-title-bold;
+		font-size: 14pt;
+	}
+
+	.map-area-known-for, .map-area-cities{
+		font-size: 12pt;
+		padding-left: 8px;
+	}
+
+	.map-area-title{
+		text-transform: uppercase;
+		font-family: $font-title-bold;
+		font-size: 22pt;
+	}
+
+	.map-area-distance{
+		font-family: $font-body;
+		font-size: 12pt;
+
+		table{
+			margin-left: 8px;
+			background-color: #efefef;
+			color: $color-main;
+			font-size: 10pt;
+
+			tr{
+				td, th{
+
+					&.method{
+						padding: 2px 48px 2px 8px;
+						text-align: left;
+					}
+
+					&.distance{
+						padding: 2px 8px;
+						text-align: right;
+					}
+
+					&.cost{
+						padding: 2px 8px;
+						text-align: right;
+					}
+				}
+			}
+		}
+	}
+}

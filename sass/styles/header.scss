@@ -1,0 +1,42 @@
+header{
+	background-color: $color-title-bg-light;
+	border-top: 4px solid $color-title-bg;
+
+	.wrapper{
+		color: $color-white;
+
+		.title-area{
+			display: inline-block;
+			padding: 24px 48px 4px 8px;
+
+			background-color: $color-title-bg;
+			font-family: $font-title;
+			font-size: 18pt;
+
+			&:hover{
+				cursor: default;
+			}
+		}
+
+		.navigation{
+			display: inline-block;
+
+			ul{
+				li{
+					display: inline-block;
+					min-width: 150px;
+
+					font-size: 12pt;
+					text-align: center;
+					text-transform: uppercase;
+					font-family: $font-title-bold;
+
+					&:hover{
+						cursor: pointer;
+						color: $color-title-bg;
+					}
+				}
+			}
+		}
+	}
+}
